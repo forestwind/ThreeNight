@@ -16,3 +16,10 @@ CCharacter::CCharacter(void)
 CCharacter::~CCharacter(void)
 {
 }
+
+void CCharacter::Set_Item(const CItem& item){
+
+}
+void CCharacter::Print_Info(){
+
+}
