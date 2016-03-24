@@ -1,7 +1,8 @@
 #pragma once
 #include "Scene.h"
+#include "Common.h"
 
-class CGameMgr
+class CGameMgr : public Singleton<CGameMgr>
 {
 private:
 	std::list<CScene> m_vScenes; // ¾À °´Ã¼¸¦ ´ã´Â ¸®½ºÆ®
