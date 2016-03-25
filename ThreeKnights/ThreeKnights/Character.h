@@ -12,6 +12,7 @@ private:
 public:
 	void Set_Item(const CItem&);		// 캐릭터가 착용할 아이템 설정(인벤토리 설계시 생각해봐야됨)
 	void Print_Info();					// 캐릭터 정보 출력(현재 각종 수치, 아이템 정보 표기)
+	void Attack(CCharacter&);
 	CCharacter(void);
 	~CCharacter(void);
 };
