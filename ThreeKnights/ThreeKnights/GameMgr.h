@@ -1,11 +1,19 @@
 #pragma once
 #include "Scene.h"
 #include "Common.h"
+#include "Player.h"
+#include "Stage.h"
 
 class CGameMgr : public Singleton<CGameMgr>
 {
 private:
 	std::list<CScene> m_vScenes; // 씬 객체를 담는 리스트
+
+	CPlayer* m_player;			 // 플레이어
+	
+	std::list<CStage> m_Stages; // 스테이지
+
+	
 
 public:
 	CGameMgr(void);  // 생성자

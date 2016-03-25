@@ -34,6 +34,28 @@ void CGameMgr::Init()
 	temp_scene = new CResultScene();
 	m_vScenes.push_front(*temp_scene);
 
+
+	// DB추가
+	
+	// 스테이지  2개 
+	for (int i = 0; i < 2; ++i)
+	{
+		// 스테이지 생성 
+		CStage* temp_stage = new CStage();
+		// 스테이지 추가 
+		m_Stages.push_front(*temp_stage);
+	}
+
+	for (auto Iter = m_Stages.begin(); Iter != m_Stages.end(); ++Iter)
+	{
+		//(*Iter).init();
+	}
+
+	// 플레이어 생성 및 초기화
+	m_player = new CPlayer();
+	//m_player->init();
+
+
 }
 
 void CGameMgr::Update()
