@@ -1,6 +1,6 @@
 #include "StdAfx.h"
 #include "GameMgr.h"
-#include "PlayerScene.h"
+#include "PlayScene.h"
 #include "ReadyScene.h"
 #include "ResultScene.h"
 
@@ -27,7 +27,7 @@ void CGameMgr::Init()
 	m_vScenes.push_front(*temp_scene);
 
 	// 플레이씬 추가
-	temp_scene = new CPlayerScene();
+	temp_scene = new CPlayScene();
 	m_vScenes.push_front(*temp_scene);
 
 	// 결과씬 추가

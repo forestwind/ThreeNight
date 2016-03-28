@@ -45,9 +45,6 @@
     <ClInclude Include="ReadyScene.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="PlayerScene.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="ResultScene.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -55,6 +52,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Common.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -86,13 +86,13 @@
     <ClCompile Include="ReadyScene.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="PlayerScene.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ResultScene.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="InputOutput.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

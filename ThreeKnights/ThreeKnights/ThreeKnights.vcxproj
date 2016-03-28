@@ -85,7 +85,7 @@
     <ClInclude Include="InputOutput.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="PlayerScene.h" />
+    <ClInclude Include="PlayScene.h" />
     <ClInclude Include="ReadyScene.h" />
     <ClInclude Include="ResultScene.h" />
     <ClInclude Include="Scene.h" />
@@ -101,7 +101,7 @@
     <ClCompile Include="InputOutput.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="PlayerScene.cpp" />
+    <ClCompile Include="PlayScene.cpp" />
     <ClCompile Include="ReadyScene.cpp" />
     <ClCompile Include="ResultScene.cpp" />
     <ClCompile Include="Scene.cpp" />
