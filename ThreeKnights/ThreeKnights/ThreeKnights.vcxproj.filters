@@ -45,9 +45,6 @@
     <ClInclude Include="ReadyScene.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="PlayerScene.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="ResultScene.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
@@ -57,7 +54,11 @@
     <ClInclude Include="Common.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="DataBase.h">
+=======
+    <ClInclude Include="PlayScene.h">
+>>>>>>> c85fc490342d7c8052d0330e8cddd2d20e70a37c
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -89,16 +90,17 @@
     <ClCompile Include="ReadyScene.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="PlayerScene.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="ResultScene.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="InputOutput.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="DataBase.cpp">
+=======
+    <ClCompile Include="PlayScene.cpp">
+>>>>>>> c85fc490342d7c8052d0330e8cddd2d20e70a37c
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

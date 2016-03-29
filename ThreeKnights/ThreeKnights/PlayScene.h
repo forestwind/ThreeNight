@@ -6,7 +6,7 @@ using namespace std;
 
 #pragma once
 
-class CPlayerScene :
+class CPlayScene :
 	public CScene
 {
 private:
@@ -19,9 +19,9 @@ private:
 	vector<CCharacter> m_vEnemys;  // 적 캐릭터 리스트
 
 public:
-	CPlayerScene(void);			   // 생성자
+	CPlayScene(void);			   // 생성자
 
-	virtual ~CPlayerScene(void);   // 소멸자
+	virtual ~CPlayScene(void);   // 소멸자
 
 	void Init();
 
