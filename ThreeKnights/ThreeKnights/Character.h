@@ -4,9 +4,8 @@ class CCharacter
 {
 private:
 	enum state{NoInit = -10};
-	int m_grade, m_level;
-	int m_att, m_def, m_hp;
-	std::string m_name;
+	
+	
 	std::list<CItem> m_lequipment;		// 아이템 장착할 리스트
 
 public:
@@ -15,5 +14,12 @@ public:
 	void Attack(CCharacter&);
 	CCharacter(void);
 	~CCharacter(void);
+
+
+	std::string m_name;
+	int m_grade, m_level;
+	int m_att, m_def, m_hp;
+	int m_index , m_speed ;
+	
 };
 

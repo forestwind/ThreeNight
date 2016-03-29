@@ -3,6 +3,7 @@
 #include "PlayerScene.h"
 #include "ReadyScene.h"
 #include "ResultScene.h"
+#include "DataBase.h"
 
 using namespace std;
 
@@ -36,7 +37,9 @@ void CGameMgr::Init()
 
 
 	// DB추가
+	CDataBase::CDataBase().getInstance().init();
 	
+
 	// 스테이지  2개 
 	for (int i = 0; i < 2; ++i)
 	{

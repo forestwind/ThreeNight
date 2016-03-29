@@ -13,6 +13,7 @@
 
 // c++ 관련 헤더
 #include<iostream>
+#include<fstream>
 #include<string>
 #include<list>
 #include<vector>
